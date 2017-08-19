@@ -9,4 +9,8 @@ public class RockPaperScissor {
 		return true;
 	}
 
+	public boolean scissorBeatsPaper() {
+		return true;
+	}
+
 }

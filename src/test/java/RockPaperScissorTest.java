@@ -23,4 +23,9 @@ public class RockPaperScissorTest {
 	public void whenPaperBeatsRock(){
 		assertEquals(true, rockPaperScissor.paperBeatsRock());
 	}
+	
+	@Test
+	public void whenScissorBeatsPaper(){
+		assertEquals(true, rockPaperScissor.scissorBeatsPaper());
+	}
 }
