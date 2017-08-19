@@ -5,4 +5,8 @@ public class RockPaperScissor {
 		return true;
 	}
 
+	public boolean paperBeatsRock() {
+		return true;
+	}
+
 }
